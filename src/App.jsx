@@ -1,7 +1,10 @@
+import CourseForm from './components/CourseForm'
+
 const App = () => {
    return (
-      <div>
-         App
+      <div className='main-container'>
+         <h1>My Course List</h1>
+         <CourseForm />
       </div>
    )
 }
